@@ -1,0 +1,12 @@
+#General ignored files
+FarmTypeManager/data/
+CJBCheatsMenu/config.json
+NPCMapLocations/config/
+#Farmer ignored files
+*Andrey
+Andrey*
+*Andrey*
+#Farm ignored files
+*Communism
+Communism*
+*Communism*
