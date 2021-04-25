@@ -1,7 +1,15 @@
 {
   "Convert": false,
   "Debug": false,
-  "Presets": {},
+  "Presets": {
+    "CrimsonSands": "Default",
+    "OminousCavern": "Default",
+    "EnchantedWaltz": "Default",
+    "SDV_Fireplace": "Default",
+    "CamillasTower": "Default",
+    "Lament": "Default",
+    "HaruhiViolinSolo": "Default"
+  },
   "SoundVolume": 0.3,
   "MusicVolume": 0.5
 }

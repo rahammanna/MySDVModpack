@@ -1,7 +1,8 @@
-﻿{
+{
   "Name": "PeacefulEnd.GreenhouseGatherers.HarvestStatue",
-  "UniqueId": "PeacefulEnd.GreenhouseGatherers.HarvestStatue",
+  "Description": "Adds craftable Junimo Harvest Statues.",
   "Author": "PeacefulEnd",
   "Version": "1.0.0",
-  "Description": "Adds craftable Junimo Harvest Statues."
+  "UniqueID": "PeacefulEnd.GreenhouseGatherers.HarvestStatue",
+  "UpdateKeys": []
 }

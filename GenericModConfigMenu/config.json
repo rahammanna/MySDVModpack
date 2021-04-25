@@ -1,0 +1,12 @@
+{
+  "dummyBool": true,
+  "dummyInt1": 50,
+  "dummyInt2": 50,
+  "dummyFloat1": 0.5,
+  "dummyFloat2": 0.5,
+  "dummyString1": "Kirby",
+  "dummyString2": "Default",
+  "dummyKeybinding": "K",
+  "dummyKeybinding2": "LeftShift + S",
+  "dummyColor": "255, 255, 255, 255"
+}

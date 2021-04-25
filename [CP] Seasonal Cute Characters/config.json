@@ -1,0 +1,17 @@
+{
+  "HarveyFacialHair": "true",
+  "NoNose": "false",
+  "FestivalOutfits": "true",
+  "ExtraOutfits": "true",
+  "FarmerBase": "true",
+  "SeasonalFarmerBases": "true",
+  "ShirtSpring": "WarmWeather",
+  "ShirtSummer": "WarmWeather",
+  "ShirtFall": "ColdWeather",
+  "ShirtWinter": "ColdWeather",
+  "ShoesSpring": "ColdWeather",
+  "ShoesSummer": "WarmWeather",
+  "ShoesFall": "WarmWeather",
+  "ShoesWinter": "ColdWeather",
+  "IslandSummerClothes": "true"
+}

@@ -1,0 +1,9 @@
+{
+  "minimumFishingLevel": 3,
+  "fishPerNet": 1.0,
+  "engineFishBonus": 2,
+  "eventFrequencyLower": 1,
+  "eventFrequencyUpper": 5,
+  "dayOfWeekChoice": "Wednesday",
+  "dayOfWeekChoiceIsland": "Saturday"
+}
