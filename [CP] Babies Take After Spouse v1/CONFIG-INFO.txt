@@ -1,0 +1,19 @@
+Run your game and load a save file with the mod installed to generate the config file. After that, close your game and open up config.json found inside the folder for this mod. This file can be edited with notepad. 
+
+1. Skin Color
+"Default" will use your spouse's regular skintone.
+"Darker" will use the darker skin variant of your spouse's skintone.
+
+2. Female Toddler Hairstyle
+"Pigtails" will set the female toddler's hair as the low pigtails.
+"Hairbuns" will set the female toddler's hair as the high buns.
+
+3. Male Toddler Hairstyle
+"Combed" will set the male toddler's hair as the neat, combed look.
+"Messy" will set the male toddler's hair as the spikey, messy look.
+
+4. Sebastian Ginger Babies
+"No" will use the default black hair for Sebastian's children.
+"Yes" will use ginger hair for Sebastian's children.
+
+Sebastian's GINGER children do not have darker skintones available. They will always have default skintones.
