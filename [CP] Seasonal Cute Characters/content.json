@@ -68,6 +68,11 @@
             "AllowValues": "True, False",
             "Default": "True"
         },
+        "MaruGlasses":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
         "FarmerBase":
         {
             "AllowValues": "True, False",
@@ -178,7 +183,32 @@
             }
 
         },
+		
+//Maru glasses
+        {        
+			"LogName": "Maru glasses",
+            "Action": "EditImage",
+            "Target": "Characters/Maru",
+            "Update": "OnLocationChange",			
+            "FromFile": "assets/characters/Maru/Maru_clear.png",
+			"When": {
+			"MaruGlasses": "false",
+			}, 
+			"PatchMode": "Overlay", 
+		},
 
+        {        
+			"LogName": "Maru glasses hospital",
+            "Action": "EditImage",
+            "Target": "Characters/Maru_Hospital",
+            "Update": "OnLocationChange",	
+            "FromFile": "assets/characters/Maru_Hospital/Maru_Hospital_clear.png",
+			"When": {
+			"MaruGlasses": "false",	
+			}, 
+			"PatchMode": "Overlay", 
+		}, 
+		
 
         // Festivals
 
@@ -315,6 +345,7 @@
             "LogName": "Harvey - Labcoat",
             "Action": "EditImage",
             "Target": "Portraits/Harvey",
+            "Update": "OnLocationChange",
             "FromFile": "assets/Portraits/Harvey/Harvey_Doctor.png",
             "Update": "OnLocationChange",
 			"When":
@@ -329,6 +360,7 @@
             "LogName": "Harvey Sprite - Labcoat",
             "Action": "EditImage",
             "Target": "Characters/Harvey",
+            "Update": "OnLocationChange",
             "FromFile": "assets/Characters/Harvey/Harvey_Doctor.png",
             "Update": "OnLocationChange",
 			"When":
@@ -339,7 +371,22 @@
             },
         },
 
- 
+
+		
+// Penny Heart Event
+		{
+            "LogName": "Penny - Bathouse heart event",
+            "Action": "EditImage",
+            "Target": "characters/Penny",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/characters/Penny/Penny_Event.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true, 
+                "LocationName": "BathHouse_Pool",
+            },
+        },
+
 //Harvey Mustache 
 		{
             "LogName": "Harvey - Mustache Overlay",
@@ -601,7 +648,7 @@
         {
             "LogName": "Characters - Characters addon",
             "Action": "EditImage",
-            "Target": "Characters/Evelyn, Characters/Gus, Characters/Jas, Characters/Kent, Characters/Vincent,",
+            "Target": "Characters/Evelyn, Characters/Gus, Characters/Jas, Characters/Kent, Characters/Vincent, Characters/Lewis",
             "FromFile": "assets/Characters/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
             "Update": "OnTimeChange, OnLocationChange",    		  
             "When":
@@ -1328,6 +1375,32 @@
 			"Update": "OnLocationChange",
             "Target": "LooseSprites/WillysBoat",
             "FromFile": "assets/{{NoNose}}/Random/WillysBoat_{{Season}}.png",
-            "ToArea": { "X": 173, "Y": 163, "Width": 16, "Height": 18 }},			
+            "ToArea": { "X": 173, "Y": 163, "Width": 16, "Height": 18 }},
+
+		// Icon Changes
+		
+        {   "LogName": "Icons Special Orders 1",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+            "FromArea": {"X": 0, "Y": 99, "Width": 126, "Height": 18  },            
+			"ToArea": { "X": 0, "Y": 99, "Width": 126, "Height": 18 }},
+
+        {   "LogName": "Icons Special Orders 2",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+            "FromArea": {"X": 0, "Y": 117, "Width": 63, "Height": 9 },            
+			"ToArea": { "X": 0, "Y": 117, "Width": 63, "Height": 9 }},
+
+        {   "LogName": "Icons Special Orders 3",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+            "FromArea": {"X": 90, "Y": 117, "Width": 36, "Height": 9  },   			
+            "ToArea": { "X": 90, "Y": 117, "Width": 36, "Height": 9 }},				
     ]
 }
