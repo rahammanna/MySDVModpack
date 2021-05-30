@@ -13,5 +13,7 @@
   "StrongerMonsters": "false",
   "OlderSophiaPortraits": "false",
   "VanillaSandyPortraits": "false",
-  "MatureEvents": "true"
+  "MatureEvents": "true",
+  "UseGaldoranThemeAllTimes": "false",
+  "DisableGaldoranTheme": "false"
 }

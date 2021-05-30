@@ -13,26 +13,21 @@
               "price":350000
           },
           {
-              "index":"386",
-              "type":"Object",
-              "price":1800
-          },
-          {
               "index":"441",
               "type":"Object",
               "price":180
           },
-          {
+		  {
               "name":"Haste Elixir",
               "type":"Object",
-              "price":7000
+              "price":6000
           },
 		  {
 		  
               "name":"Armor Elixir",
               "type":"Object",
-              "price":8000
-          },
+              "price":6000
+          }
         ],
         "portraits":[
           "assets/ShopPortraits/Adventurers/AlesiaVendor.png",
@@ -52,18 +47,46 @@
               "price":400000
           },
           {
-              "index":"165",
+              "name":"Void Soul",
               "type":"Object",
-              "price":4000
+              "price":500
           },
-          {
+		  {
               "name":"Hero Elixir",
               "type":"Object",
-              "price":10000
+              "price":8000
           }
         ],
         "portraits":[
           "assets/ShopPortraits/Adventurers/IsaacVendor.png",
+        ],
+    },
+    {
+      "id": "CamillaVendor",
+        "inventory": [
+          {
+              "name":"Gravity Elixir",
+              "type":"Object",
+              "price": 4000,
+          },
+		  {
+              "name":"Lightning Elixir",
+              "type":"Object",
+              "price": 12000,
+          },
+		  {
+              "name":"Barbarian Elixir",
+              "type":"Object",
+              "price": 22000,
+          },
+		  {
+              "name":"Aegis Elixir",
+              "type":"Object",
+              "price": 28000,
+          },
+        ],
+        "portraits":[
+          "assets/ShopPortraits/Adventurers/CamillaVendor.png",
         ],
     },
     {
@@ -953,14 +976,12 @@
               "index":645,
               "type":"Object",
               "Price":15000,
-			  "stock":3,
 			  "conditions": "n SophiaFairyGarden",
           },
 		  {
               "index":915,
               "type":"Object",
               "Price":45000,
-			  "stock":1,
 			  "conditions": "n SophiaFairyGarden",
           },
         ],
@@ -2063,6 +2084,10 @@
 		{
         "name": "Claire",
         "file": "assets/SpouseRooms/ClairesRoom.tmx"
+        },
+		{
+        "name": "Wizard",
+        "file": "assets/SpouseRooms/WizardsRoom.tmx"
         },
     ]
   

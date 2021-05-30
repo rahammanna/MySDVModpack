@@ -353,7 +353,41 @@
       "When": { "Spouse": "Claire", "DayOfWeek": "Monday, Wednesday, Thursday, Sunday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
       "Update": "OnLocationChange"
     },
+
+// Claire 14 heart Event
+
+	{ "LogName": "Claire's Theater Portraits 14 heart season",
+      "Action": "EditImage",
+      "Target": "Portraits/Claire",
+      "FromFile": "assets/Portraits/Claire/Claire_{{Season}}.png",
+      "When": { "Spouse |contains=Claire": true, "LocationName": "MovieTheater", "HasSeenEvent |contains=4269703": true, "HasSeenEvent |contains=4269704": false, "Time": "{{Range: 1600, 2000}}", "HasFile:{{FromFile}}": true,},
+      "Update": "OnLocationChange"
+    },
+	{ "LogName": "Claire's Theater Portraits 14 heart season outdoor",
+      "Action": "EditImage",
+      "Target": "Portraits/Claire",
+      "FromFile": "assets/Portraits/Claire/Claire_{{Season}}{{IndoorVariant}}.png",
+      "When": { "Spouse |contains=Claire": true, "LocationName": "MovieTheater", "HasSeenEvent |contains=4269703": true, "HasSeenEvent |contains=4269704": false, "Time": "{{Range: 1600, 2000}}", "HasFile:{{FromFile}}": true, },
+      "Update": "OnLocationChange"
+    },
+	{ "LogName": "Claire's Theater Sprites 14 heart season",
+      "Action": "EditImage",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Characters/Claire/Claire_{{Season}}.png",
+      "When": { "Spouse |contains=Claire": true, "LocationName": "MovieTheater", "HasSeenEvent |contains=4269703": true, "HasSeenEvent |contains=4269704": false, "Time": "{{Range: 1600, 2000}}", "HasFile:{{FromFile}}": true, },
+      "Update": "OnLocationChange"
+    },
+	{ "LogName": "Claire's Theater Sprites 14 heart season outdoor",
+      "Action": "EditImage",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Characters/Claire/Claire_{{Season}}{{IndoorVariant}}.png",
+      "When": { "Spouse |contains=Claire": true, "LocationName": "MovieTheater", "HasSeenEvent |contains=4269703": true, "HasSeenEvent |contains=4269704": false, "Time": "{{Range: 1600, 2000}}", "HasFile:{{FromFile}}": true, },
+      "Update": "OnLocationChange"
+    },	
 	
+	
+      //Claire's Theater Sprites 14 hearts season outdoor
+
 // Aerobics Portraits 
        {
             "LogName": "Aerobics",
@@ -436,7 +470,6 @@
         },
 		
 	//Morris
-			 
 		{
             "LogName": "Morris Vanilla Portrait",
             "Action": "EditImage",
@@ -447,28 +480,33 @@
                 "HasFile:{{FromFile}}": true
             },
         },
+	
 		{
-            "LogName": "Morris Vanilla Portrait outdoor",
+            "LogName": "Morris Vanilla Portrait indoor",
             "Action": "EditImage",
             "Target": "Portraits/Morris",
             "FromFile": "assets/Portraits/MorrisTod/MorrisTod_{{Season}}{{IndoorVariant}}.png",
             "Update": "OnLocationChange",            
 		    "When": {
                 "HasFile:{{FromFile}}": true,
-				"LocationName": "JojaMart" 
             },
         },
 
 		{
-            "LogName": "Morris Vanilla Portrait",
+            "LogName": "Morris Vanilla Portrait Joja",
             "Action": "EditImage",
             "Target": "Portraits/Morris",
             "FromFile": "assets/Portraits/MorrisTod/MorrisTod_Winter_Indoor.png",
-            "Update": "OnLocationChange",            
+            "Update": "OnLocationChange",
+            "Update": "OnTimeChange",            
 		    "When": {
-                "HasFile:{{FromFile}}": true
+                "HasFile:{{FromFile}}": true,
+                "Time": "{{Range: 0950, 2210}}",
+				"Season": "Winter",
             },
-        },		
+        },
+		
+	
         {
             "LogName": "Morris Vanilla Sprite",
             "Action": "EditImage",
@@ -567,6 +605,40 @@
             }
         },
 
+
+//Wizard        
+		{
+            "LogName": "Wizard Vanilla Portait",
+            "Action": "EditImage",
+            "Target": "Portraits/Wizard",
+            "FromFile": "assets/Portraits/Magnus/Magnus_{{Season}}.png",
+            "Update": "OnLocationChange",            
+		    "When": {
+                "HasFile:{{FromFile}}": true
+            },
+        },
+        {
+            "LogName": "Wizard Vanilla Sprite",
+            "Action": "EditImage",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/Characters/Magnus/Magnus_{{Season}}.png",
+            "Update": "OnLocationChange",            
+			"When": {
+                "HasFile:{{FromFile}}": true
+            },
+        },
+        {
+            "LogName": "Wizard Nose Variant",
+            "Action": "EditImage",
+            "Target": "Characters/Wizard,",
+            "FromFile": "assets/Characters/Magnus/Magnus_Nose.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "NoNose": "false"
+            }
+        },
+
 // Festivals
         {
             "LogName": "Festival Character Sprites",
@@ -596,7 +668,7 @@
         {
             "LogName": "Beach Sprites",
             "Action": "EditImage",
-            "Target": "Characters/Andy_Beach, Characters/Lance_Beach, Characters/Olivia_Beach, Characters/Sophia_Beach, Characters/Susan_Beach, Characters/Victor_Beach",
+            "Target": "Characters/Andy_Beach, Characters/Claire_Beach, Characters/Lance_Beach, Characters/Olivia_Beach, Characters/Sophia_Beach, Characters/Susan_Beach, Characters/Victor_Beach",
             "FromFile": "assets/Characters/Beach/{{TargetWithoutPath}}.png",
             "Update": "OnLocationChange",            
 			"When": {
@@ -608,7 +680,7 @@
         {
             "LogName": "Beach Variants all",
             "Action": "EditImage",
-            "Target": "Characters/Andy_Beach, Characters/Lance_Beach, Characters/Olivia_Beach, Characters/Sophia_Beach, Characters/Victor_Beach",
+            "Target": "Characters/Andy_Beach, Characters/Claire_Beach, Characters/Lance_Beach, Characters/Olivia_Beach, Characters/Sophia_Beach, Characters/Victor_Beach",
             "FromFile": "assets/Characters/Beach/{{TargetWithoutPath}}_nose.png",
             "PatchMode": "Overlay",
             "When": {

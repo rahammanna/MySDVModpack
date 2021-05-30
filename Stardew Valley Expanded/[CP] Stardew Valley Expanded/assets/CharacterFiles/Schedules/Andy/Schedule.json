@@ -1,7 +1,7 @@
 {
   
   //Eats food in kitchen, does activities around farm, goes to Joja to buy seeds, returns home to kitchen, writes in his manifest, goes to sleep
-  "Mon": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 18 6 0/700 Forest 70 67 1 Andy_Farm1/730 Forest 70 64 1 Andy_Farm1/740 Forest 72 62 2 Andy_Farm2/810 Forest 75 62 2 Andy_Farm2/840 Forest 77 62 2 Andy_Farm2/900 Forest 65 64 0/930 Forest 66 64 0/1000 Forest 66 66 0/1030 Forest 65 66 0/1100 Forest 64 70 0/1130 JojaMart 21 18 3/1600 Custom_AndyHouse 20 6 0/1900 Saloon 3 23 3 Andy_Drink1/2330 Custom_AndyHouse 9 6 1 Andy_Sleep",
+  "Mon": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 18 6 0/700 Forest 70 67 1 Andy_Farm1/730 Forest 70 64 1 Andy_Farm1/740 Forest 72 62 2 Andy_Farm2/810 Forest 75 62 2 Andy_Farm2/840 Forest 77 62 2 Andy_Farm2/900 Forest 65 64 0/930 Forest 66 64 0/1000 Forest 66 66 0/1030 Forest 65 66 0/1100 Forest 64 70 0/1130 JojaMart 21 18 3/1600 Saloon 3 23 3 Andy_Drink1/2330 Custom_AndyHouse 9 6 1 Andy_Sleep",
   //Eats food in kitchen, does activities around farm, goes foraging in the forest, comes back to store forage in shipping bin, goes to kitchen, drinks beer in fireplace room, checks manifest, goes to sleep
   "Tue": "0 Custom_AndyHouse 18 6 0/620 Custom_AndyHouse 18 6 0/700 Forest 65 66 0/730 Forest 66 66 0/740 Forest 66 64 0/750 Forest 65 64 0/800 Forest 77 62 2 Andy_Farm2/820 Forest 77 62 2 Andy_Farm2/830 Forest 75 62 2 Andy_Farm2/850 Forest 73 62 2 Andy_Farm2/900 Forest 72 62 2 Andy_Farm2/910 Forest 71 62 2 Andy_Farm2/920 Forest 70 64 1 Andy_Farm1/930 Forest 70 65 1 Andy_Farm1/940 Forest 70 66 1 Andy_Farm1/950 Forest 70 67 1 Andy_Farm1/1000 Forest 70 68 1 Andy_Farm1/1010 Forest 70 69 1 Andy_Farm1/1020 Forest 70 70 1 Andy_Farm1/1030 Forest 80 71 1/1100 Forest 63 70 0/1130 Forest 84 84 0/1200 Forest 80 84 0/1220 Forest 58 79 0/1240 Forest 54 81 0/1300 Forest 45 75 0/1320 Forest 33 104 0/1420 Forest 34 97 0/1450 Forest 25 98 0/1510 Forest 12 95 0/1540 Forest 11 92 0/1610 Forest 64 70 0/1720 Custom_AndyHouse 20 6 0/2100 Custom_AndyHouse 9 6 1 Andy_Sleep",
   //Eats food in kitchen, does activities around farm, goes to cliff to stare at the Gem Sea, visits the abandoned house, comes back to put crops and forage in his shipping bin, goes inside to eat, then sleeps
@@ -36,10 +36,10 @@
   "winter_Sun": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 18 6 2 Andy_Sleep/700 Custom_AndyHouse 9 6 1 Andy_Sleep/710 Custom_AndyHouse 20 6 0/810 SeedShop 37 22 0/1400 Town 76 54 2/1630 Saloon 3 23 3 Andy_Drink1/2330 Custom_AndyHouse 9 6 1 Andy_Sleep",
   
   //Wakes up early, eats foods, visits the abandoned vineyard, returns home to eat, sleeps
-  "spring_15": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/700 Custom_ForestWest 58 22 0 Andy_Stand/1700 Custom_AndyHouse 20 6 0/2300 Custom_AndyHouse 9 6 1 Andy_Sleep",
-  "summer_15": "0 Custom_AndyHouse 18 6 0/10 Custom_AndyHouse 20 6 0/700 Custom_ForestWest 58 22 0 Andy_Stand/1700 Custom_AndyHouse 20 6 0/2300 Custom_AndyHouse 9 6 1 Andy_Sleep",
-  "fall_15": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/700 Custom_ForestWest 53 28 0 Andy_Drink3/1700 Custom_AndyHouse 20 6 0/2300 Custom_AndyHouse 9 6 1 Andy_Sleep",
-  "winter_24": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/700 Custom_ForestWest 58 22 0 Andy_Stand/1700 Custom_AndyHouse 20 6 0/2300 Custom_AndyHouse 9 6 1 Andy_Sleep",
+  "spring_15": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/800 Custom_AndyHouse 18 14 0/1500 Custom_ForestWest 53 28 0 Andy_Drink3",
+  "summer_15": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/800 Custom_AndyHouse 18 14 0/1500 Custom_ForestWest 53 28 0 Andy_Drink3",
+  "fall_15": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/800 Custom_AndyHouse 18 14 0/1500 Custom_ForestWest 53 28 0 Andy_Drink3",
+  "winter_24": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/800 Custom_AndyHouse 18 14 0/1500 Custom_ForestWest 53 28 0 Andy_Drink3",
   
   //NIGHT MARKET
   "winter_15": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 18 6 2 Andy_Sleep/910 Custom_AndyHouse 9 6 1 Andy_Sleep/1000 Custom_AndyHouse 20 6 0/1050 Custom_AndyHouse 5 6 0/1210 Forest 83 99 2/1500 Beach 13 33 1 \"Strings\\schedules\\Andy:NightMarket.001\"/2300 Custom_AndyHouse 9 6 1 Andy_Sleep",

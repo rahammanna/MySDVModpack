@@ -8,7 +8,12 @@
     "SDV_Fireplace": "Default",
     "CamillasTower": "Default",
     "Lament": "Default",
-    "HaruhiViolinSolo": "Default"
+    "HaruhiViolinSolo": "Default",
+    "NewMagicLearned": "Default",
+    "Nexus": "Default",
+    "CastleVillageOutpostAmbience": "Default",
+    "GrenvilleFalls": "Default",
+    "Atlantis": "Default"
   },
   "SoundVolume": 0.3,
   "MusicVolume": 0.5

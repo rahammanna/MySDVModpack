@@ -1377,11 +1377,11 @@
         "UniqueAreaID": "Sprite Spring forage area 1",
         "MapName": "Custom_SpriteSpring",
         "MinimumSpawnsPerDay": 3,
-        "MaximumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 6,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
-          "80,34;67,27",
+          "80,34;67,31",
           "79,46;64,35"
         ],
         "ExcludeCoordinates": [],
@@ -1423,11 +1423,11 @@
         "UniqueAreaID": "Sprite Spring forage area 2",
         "MapName": "Custom_SpriteSpring",
         "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
-          "80,34;67,27",
+          "80,34;67,31",
           "79,46;64,35"
         ],
         "ExcludeCoordinates": [],
@@ -1475,7 +1475,7 @@
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
-          "80,34;67,27",
+          "80,34;67,31",
           "79,46;64,35"
         ],
         "ExcludeCoordinates": [],
@@ -1721,31 +1721,27 @@
       },
       {
         "SpringItemIndex": [
-          88,
-          90
+          "Void Soul"
         ],
         "SummerItemIndex": [
-          88,
-          90
+          "Void Soul"
         ],
         "FallItemIndex": [
-          88,
-          90
+          "Void Soul"
         ],
         "WinterItemIndex": [
-          88,
-          90
+          "Void Soul"
         ],
-        "UniqueAreaID": "Crimson Badlands Coconut and Cactus Fruit",
+        "UniqueAreaID": "Void Soul spawns",
         "MapName": "Custom_CrimsonBadlands",
-        "MinimumSpawnsPerDay": 14,
-        "MaximumSpawnsPerDay": 20,
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 17,
         "IncludeTerrainTypes": [
           "Any"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
-          "223,148;190,115"
+          "213,144;193,34"
         ],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
@@ -2093,6 +2089,101 @@
       },
       {
         "SpringItemIndex": [
+          "Swirl Stone"
+        ],
+        "SummerItemIndex": [
+          "Swirl Stone"
+        ],
+        "FallItemIndex": [
+          "Swirl Stone"
+        ],
+        "WinterItemIndex": [
+          "Swirl Stone"
+        ],
+        "UniqueAreaID": "Crimson Badlands Swirl Stone",
+        "MapName": "Custom_CrimsonBadlands",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Any"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "46,146;33,121"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          "Dewdrop Berry"
+        ],
+        "SummerItemIndex": [
+          "Dewdrop Berry"
+        ],
+        "FallItemIndex": [
+          "Dewdrop Berry"
+        ],
+        "WinterItemIndex": [
+          "Dewdrop Berry"
+        ],
+        "UniqueAreaID": "Enchanted Grove Dewdrop Berry spawns",
+        "MapName": "Custom_EnchantedGrove",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Any"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "33,27;27,25"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [
+            "1",
+            "14"
+          ],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 27
+      },
+      {
+        "SpringItemIndex": [
           30
         ],
         "SummerItemIndex": [
@@ -2267,8 +2358,8 @@
         "RelatedSkill": "Foraging",
         "UniqueAreaID": "Iridium Quarry Meteor Spawn",
         "MapName": "Custom_IridiumQuarry",
-        "MinimumSpawnsPerDay": 4,
-        "MaximumSpawnsPerDay": 6,
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -2307,8 +2398,8 @@
         "LevelTenSpawnChance": null,
         "UniqueAreaID": "Iridium Quarry Ore Spawns",
         "MapName": "Custom_IridiumQuarry",
-        "MinimumSpawnsPerDay": 24,
-        "MaximumSpawnsPerDay": 31,
+        "MinimumSpawnsPerDay": 17,
+        "MaximumSpawnsPerDay": 25,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -2414,6 +2505,66 @@
   },
   "Monster_Spawn_Settings": {
     "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "Damage": 35,
+              "DodgeChance": 5
+            }
+          },
+          {
+            "MonsterName": "Mummy",
+            "Settings": {
+              "SpawnWeight": 3,
+              "Damage": 65,
+              "DodgeChance": 5
+            }
+          },
+          {
+            "MonsterName": "Skeleton",
+            "Settings": {
+              "SpawnWeight": 6,
+              "Damage": 40,
+              "DodgeChance": 8
+            }
+          }
+        ],
+        "UniqueAreaID": "Castle Village Outpost Spawns",
+        "MapName": "Custom_CastleVillageOutpost",
+        "MinimumSpawnsPerDay": 35,
+        "MaximumSpawnsPerDay": 35,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "43,44;17,16"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 300,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
       {
         "MonsterTypes": [
           {
@@ -2682,10 +2833,7 @@
                 "Void Pebble",
                 769,
                 769,
-                769,
-                769,
-                769,
-                769
+                768
               ],
               "Sprite": "Characters/Monsters/CorruptMummy"
             }
@@ -2738,10 +2886,7 @@
                 "Void Pebble",
                 769,
                 769,
-                769,
-                769,
-                769,
-                769
+                768
               ],
               "Sprite": "Characters/Monsters/CorruptMummy"
             }
@@ -2791,10 +2936,7 @@
                 "Void Pebble",
                 769,
                 769,
-                769,
-                769,
-                769,
-                769
+                768
               ],
               "Sprite": "Characters/Monsters/CorruptMummy"
             }
@@ -2998,9 +3140,6 @@
                 769,
                 769,
                 769,
-                769,
-                769,
-                769,
                 226
               ],
               "Sprite": "Characters/Monsters/CorruptSerpent"
@@ -3121,12 +3260,14 @@
             "MonsterName": "Carbon Ghost",
             "Settings": {
               "SpawnWeight": 1,
-              "HP": 335,
-              "Damage": 55,
+              "HP": 1250,
+              "Damage": 70,
               "DodgeChance": 0,
               "SeesPlayersAtSpawn": true,
               "Loot": [
                 "Void Pebble",
+                "Void Pebble",
+                768,
                 768,
                 768,
                 768
@@ -3183,10 +3324,7 @@
                 "Void Pebble",
                 769,
                 769,
-                769,
-                769,
-                769,
-                769
+                768
               ],
               "Sprite": "Characters/Monsters/CorruptMummy"
             }
