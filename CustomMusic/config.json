@@ -1,20 +1,7 @@
 {
   "Convert": false,
   "Debug": false,
-  "Presets": {
-    "CrimsonSands": "Default",
-    "OminousCavern": "Default",
-    "EnchantedWaltz": "Default",
-    "SDV_Fireplace": "Default",
-    "CamillasTower": "Default",
-    "Lament": "Default",
-    "HaruhiViolinSolo": "Default",
-    "NewMagicLearned": "Default",
-    "Nexus": "Default",
-    "CastleVillageOutpostAmbience": "Default",
-    "GrenvilleFalls": "Default",
-    "Atlantis": "Default"
-  },
+  "Presets": {},
   "SoundVolume": 0.3,
   "MusicVolume": 0.5
 }
