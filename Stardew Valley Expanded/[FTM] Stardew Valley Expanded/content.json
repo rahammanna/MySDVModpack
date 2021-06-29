@@ -251,6 +251,54 @@
         "DaysUntilSpawnsExpire": null
       },
       {
+        "SpringItemIndex": [
+          88,
+          90
+        ],
+        "SummerItemIndex": [
+          88,
+          90
+        ],
+        "FallItemIndex": [
+          88,
+          90
+        ],
+        "WinterItemIndex": [
+          88,
+          90
+        ],
+        "UniqueAreaID": "Desert forage spawns",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "24,59;2,31"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
         "SpringItemIndex": null,
         "SummerItemIndex": null,
         "FallItemIndex": null,
@@ -895,8 +943,8 @@
         ],
         "UniqueAreaID": "Forest West forage area 1",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 6,
-        "MaximumSpawnsPerDay": 12,
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 14,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -956,8 +1004,8 @@
         ],
         "UniqueAreaID": "Forest West forage area 2",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 4,
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [
@@ -1149,7 +1197,7 @@
         ],
         "UniqueAreaID": "Forest West forage area 6",
         "MapName": "Custom_ForestWest",
-        "MinimumSpawnsPerDay": 0,
+        "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
